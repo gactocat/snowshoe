@@ -7,7 +7,6 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -39,7 +39,7 @@ class App extends Component {
     },
     {
       name: 'Knight',
-      desc: 'jumps at an angle intermediate to orthogonal and diagonal, amounting to one square straight forward plus one square diagonally forward, in a single move. Thus the knight has two possible forward destinations. Unlike international chess knights, shogi knights cannot move to the sides or in a backwards direction. The knight is the only piece that ignores intervening pieces on the way to its destination. It is not blocked from moving if the square in front of it is occupied, but neither can it capture a piece on that square. It is often useful to leave a knight unpromoted at the far side of the board. A knight must promote, however, if it reaches either of the two furthest ranks.',
+      desc: 'jumps at an angle intermediate to orthogonal and diagonal, amounting to one square straight forward plus one square diagonally forward, in a single move. Unlike international chess knights, shogi knights cannot move to the sides or in a backwards direction. The knight is the only piece that ignores intervening pieces on the way to its destination. It is not blocked from moving if the square in front of it is occupied, but neither can it capture a piece on that square. It is often useful to leave a knight unpromoted at the far side of the board. A knight must promote, however, if it reaches either of the two furthest ranks.',
       icon: knightIcon,
       move: knightMove,
     },

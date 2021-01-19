@@ -10,8 +10,9 @@
 }
 
 .App-navi-button {
-  width: 50%;
+  font-size: calc(10px + 2vmin);
   height: 8vmin;
+  width: 50%;
 }
 
 .App-content {
@@ -23,11 +24,11 @@
 }
 
 .App-content-icon {
-  width: 30vmin;
+  width: 20vmin;
 }
 
 .App-content-move {
-  width: 80vmin;
+  width: 50vmin;
 }
 
 .App-link {
