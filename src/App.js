@@ -81,7 +81,6 @@ class App extends Component {
 
   render() {
     const pieceType = this.piece_types[this.state.pieceIndex];
-    console.log(`pieceIndex: ${this.state.pieceIndex}`);
     return (
       <div className="App">
         <div className="App-navi">
