@@ -1,4 +1,4 @@
-# Shogi Pieces
+# Shogi Pieces ![Node.js CI](https://github.com/gactocat/shogi-pieces/workflows/Node.js%20CI/badge.svg)
 
 This project is a Twitch Extension that explains how to move the pieces and rules of Shogi.
 
