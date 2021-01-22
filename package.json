@@ -16,7 +16,6 @@
     "start": "HTTPS=true PORT=8080 react-scripts start",
     "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "postinstall": "sh install_cert.sh"
   },
   "eslintConfig": {
