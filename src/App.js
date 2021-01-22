@@ -111,14 +111,6 @@ class App extends Component {
           <p>{pieceType.desc}
           </p>
           <img className="App-content-move" src={pieceType.move} alt="Icon" />
-          <a
-            className="App-link"
-            href="https://en.wikipedia.org/wiki/Shogi"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn More
-        </a>
         </div>
       </div >
     );
