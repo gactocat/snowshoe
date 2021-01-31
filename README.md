@@ -1,4 +1,4 @@
-# Shogi Pieces ![Node.js CI](https://github.com/gactocat/snowshoe/workflows/Node.js%20CI/badge.svg)
+# snowshoe ![Node.js CI](https://github.com/gactocat/snowshoe/workflows/Node.js%20CI/badge.svg)
 
 This project is a Twitch Extension that explains how to move the pieces and rules of Shogi.
 
@@ -25,4 +25,3 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
