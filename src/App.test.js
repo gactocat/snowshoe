@@ -1,9 +1,20 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Initial rendering.', () => {
   render(<App />);
-  expect(screen.getByText(/prev/i)).toBeInTheDocument();
-  expect(screen.getByText(/next/i)).toBeInTheDocument();
+  expect(screen.getByText('Prev')).toBeDisabled();
+  expect(screen.getByText('Next')).toBeEnabled();
+  expect(screen.getByRole('heading')).toHaveTextContent('Pawn');
+});
+
+test('Operating the navigations.', () => {
+  render(<App />);
+  fireEvent.click(screen.getByText('Next'), {
+    target: { value: 'JavaScript' },
+  });
+  expect(screen.getByText('Prev')).toBeEnabled();
+  expect(screen.getByText('Next')).toBeEnabled();
+  expect(screen.getByRole('heading')).toHaveTextContent('Lance');
 });
